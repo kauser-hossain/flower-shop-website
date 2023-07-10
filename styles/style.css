@@ -13,6 +13,10 @@
   color: #ffffff;
   border: none;
 }
+.primary-color{
+    color: #E55473;
+
+}
 /* introduction banner design started */
 header {
   width: 100vw;
@@ -207,15 +211,49 @@ header {
   font-weight: 400;
   line-height: 30px;
 }
-.subscription-banner input[type=email] {
-    background-color:#FFFFFF;
-    border: none;
-    padding: 12px 20px;
-    width: 700px;
-    border-radius: 5px;
-    margin-top: 15px;
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 17px;
-    margin-right: 10px;
+.subscription-banner input[type="email"] {
+  background-color: #ffffff;
+  border: none;
+  padding: 12px 20px;
+  width: 700px;
+  border-radius: 5px;
+  margin-top: 15px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 17px;
+  margin-right: 10px;
 }
 /* compleate subscription section */
+/* started footer design */
+.footer {
+  width: 100vw;
+  height: 300px;
+  margin-top: 100px;
+  background: #111010;
+  border-radius: 5px;
+}
+.footer-container {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.footer-container h3 {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 800;
+}
+.footer-container p {
+  color: rgba(255, 255, 255, 0.9);
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 4px;
+}
+.footer-container small  {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 8px;
+    font-weight: 400;
+}

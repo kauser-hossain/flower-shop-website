@@ -150,3 +150,72 @@ header {
   height: 400px;
   padding: 50px 200px 50px 0;
 }
+.insta-container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+}
+.insta-name {
+  color: #272727;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+.insta-description {
+  color: rgba(39, 39, 39, 0.6);
+  width: 50%;
+  margin: 0 auto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 40px;
+}
+.insta-image-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+.insta-image-container img {
+  width: 24%;
+  height: auto;
+}
+.subscription-banner {
+  background-image: url("../Flower Asset/Rectangle\ 9.png");
+  width: 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 9px;
+  text-align: center;
+  margin: auto;
+  margin-top: 100px;
+}
+.subscription-banner-title {
+  color: #272727;
+  text-align: center;
+  padding-top: 100px;
+  font-size: 40px;
+  font-weight: 800;
+}
+.subscription-banner-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.subscription-banner input[type=email] {
+    background-color:#FFFFFF;
+    border: none;
+    padding: 12px 20px;
+    width: 700px;
+    border-radius: 5px;
+    margin-top: 15px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 17px;
+    margin-right: 10px;
+}
+/* compleate subscription section */

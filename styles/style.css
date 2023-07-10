@@ -40,14 +40,61 @@ header {
   font-weight: 400;
   line-height: 20px;
   max-width: 440px;
-  margin: auto ;
+  margin: auto;
   margin-bottom: 25px;
 }
 .picture {
-    padding-top: 90px;
-    padding-right: 50px;
-    width: 40vw;
-    max-height: 100vh;
+  padding-top: 90px;
+  padding-right: 50px;
+  width: 40vw;
+  max-height: 100vh;
 }
 /* introduction banner design compleate */
 /* featured flower section started */
+.featured-section {
+  width: 90%;
+  margin: 0 auto;
+}
+.featured-title {
+  text-align: center;
+  color: #272727;
+  font-size: 36px;
+  font-weight: 800;
+  margin-top: 90px;
+}
+.featured-description {
+  text-align: center;
+  margin-top: 10px;
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.featured-img-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+}
+.single-item-image {
+  width: 250px;
+  height: 350px;
+  margin-top: 40px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+.single-img-desc {
+  color: #272727;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  text-decoration-line: underline;
+}

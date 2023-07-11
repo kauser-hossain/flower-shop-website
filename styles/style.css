@@ -15,9 +15,8 @@
   border: none;
   text-align: center;
 }
-.primary-color{
-    color: #E55473;
-
+.primary-color {
+  color: #e55473;
 }
 /* introduction banner design started */
 header {
@@ -53,12 +52,28 @@ header img {
   padding-top: 90px;
   padding-right: 50px;
   width: 70%;
-  height:auto;
+  height: auto;
   padding-bottom: 0;
   margin-bottom: -35px;
 }
 /* introduction banner design compleate */
 /* featured flower section started */
+.busness-statistic {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background-color: #111010;
+  color: #ffffff;
+  gap: 50px;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 150px;
+}
+.busness-statistic h3 {
+  font-size: 40px;
+  margin-bottom: 5px;
+}
 .featured-section {
   width: 90%;
   margin: 0 auto;
@@ -256,8 +271,8 @@ header img {
   line-height: 20px;
   margin-bottom: 4px;
 }
-.footer-container small  {
-    color: rgba(255, 255, 255, 0.40);
-    font-size: 8px;
-    font-weight: 400;
+.footer-container small {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 8px;
+  font-weight: 400;
 }

@@ -22,7 +22,7 @@
 /* introduction banner design started */
 header {
   width: 100vw;
-  height: auto;
+  height: 100vh;
   background-color: #e554731a;
 }
 .introduction-banner-container {
@@ -49,11 +49,13 @@ header {
   margin: auto;
   margin-bottom: 25px;
 }
-.picture {
+header img {
   padding-top: 90px;
   padding-right: 50px;
-  width: 40vw;
-  max-height: 100vh;
+  width: 70%;
+  height:auto;
+  padding-bottom: 0;
+  margin-bottom: -35px;
 }
 /* introduction banner design compleate */
 /* featured flower section started */
@@ -216,8 +218,8 @@ header {
 .subscription-banner input[type="email"] {
   background-color: #ffffff;
   border: none;
-  padding: 12px 20px;
-  width: 700px;
+  padding: 16px 20px;
+  width: 600px;
   border-radius: 5px;
   margin-top: 15px;
   color: rgba(39, 39, 39, 0.6);
